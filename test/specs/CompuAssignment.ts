@@ -18,7 +18,7 @@ describe ('My main test', () =>{
         
     })
 
-    it.skip('Should select option from dropdown', async () =>{
+    it('Should select option from dropdown', async () =>{
 
         await searchPage.sendTextInSearch('Pet')
         //await browser.pause(5000)
